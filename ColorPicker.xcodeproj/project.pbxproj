@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E8741927272BF33F007B6DAD /* ColorPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8741926272BF33F007B6DAD /* ColorPickerApp.swift */; };
-		E8741929272BF33F007B6DAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8741928272BF33F007B6DAD /* ContentView.swift */; };
+		E8741929272BF33F007B6DAD /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8741928272BF33F007B6DAD /* ColorPickerView.swift */; };
 		E874192B272BF340007B6DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E874192A272BF340007B6DAD /* Assets.xcassets */; };
 		E874192E272BF340007B6DAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E874192D272BF340007B6DAD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		E8741923272BF33F007B6DAD /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8741926272BF33F007B6DAD /* ColorPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerApp.swift; sourceTree = "<group>"; };
-		E8741928272BF33F007B6DAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E8741928272BF33F007B6DAD /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		E874192A272BF340007B6DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E874192D272BF340007B6DAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				E8741926272BF33F007B6DAD /* ColorPickerApp.swift */,
-				E8741928272BF33F007B6DAD /* ContentView.swift */,
+				E8741928272BF33F007B6DAD /* ColorPickerView.swift */,
 				E874192A272BF340007B6DAD /* Assets.xcassets */,
 				E874192C272BF340007B6DAD /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8741929272BF33F007B6DAD /* ContentView.swift in Sources */,
+				E8741929272BF33F007B6DAD /* ColorPickerView.swift in Sources */,
 				E8741927272BF33F007B6DAD /* ColorPickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
